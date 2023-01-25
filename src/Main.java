@@ -37,7 +37,7 @@ public class Main{
             hasil = true;
         }else{
             try{
-                if(Integer.parseInt(y) > 0 && Integer.parseInt(y) < 14){
+                if(Integer.parseInt(y) > 1 && Integer.parseInt(y) < 11){
                     hasil = true;
                 }
             }catch(NumberFormatException ex){
@@ -250,6 +250,7 @@ public class Main{
                     writer.write(solution.get(i) + "\n");
                 }
                 writer.close();
+                System.out.println("Berhasil menyimpan solusi ke dalam file!");
             }
             
         }
@@ -283,8 +284,10 @@ public class Main{
     public static void main(String[] args) throws IOException {
         System.out.println();
         System.out.println("########################################################################");
+        System.out.println("########################################################################");
         System.out.println("                Selamat datang di program 24 Solver!");
         System.out.println("Anda dapat melihat solusi untuk permainan kartu 24 dengan program ini.");
+        System.out.println("########################################################################");
         printMenu();
         int aksi = askInput();
         int[] kartu;
