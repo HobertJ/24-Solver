@@ -1,4 +1,4 @@
-# Tucil1_13521079
+# 24-Solver
 Tugas Kecil 1 IF2211 Strategi Algoritma
 
 ## Deskripsi Program 
